@@ -75,3 +75,14 @@ ul {
     padding: 8px;
     text-align: left;
 }
+
+.clientes-satisfeitos ul {
+    list-style-type: none;
+}
+
+.clientes-satisfeitos img {
+    height: 180px;
+    width:150px;
+    object-fit: cover;
+}
+
