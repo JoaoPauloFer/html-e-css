@@ -1,5 +1,10 @@
-body {
-    
+html {
+    font-family: sans-serif;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
 }
 
 #banner {
@@ -39,7 +44,6 @@ em strong {
     background: #ffffff;
     padding: 20px;
 }
-
 ul {
     display: inline-block;
     vertical-align: top;
@@ -49,4 +53,25 @@ ul {
 
 .imagemBeneficios {
     width: 50%;
+}
+
+.titulo-cliente {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 70px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.margin-left {
+    margin-left: 100px;
+}
+
+.clientes-satisfeitos p {
+    vertical-align: middle;
+    padding: 8px;
+    text-align: left;
 }
